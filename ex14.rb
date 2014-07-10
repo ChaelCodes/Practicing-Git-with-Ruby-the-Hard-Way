@@ -1,9 +1,9 @@
 #http://ruby.learncodethehardway.org/book/ex14.html
 
-user = ARGV.first
-prompt = '>'
+user, userid = ARGV.first
+prompt = ':'
 
-puts "Welcome #{user}, I'm the #{$0} script."
+puts "Welcome user #{userid}, I'm #{$0} script."
 puts "Let's start with some questions."
 puts "Do you like me #{user}?"
 print prompt
@@ -26,6 +26,6 @@ MESSAGE
 #EXTRA CREDIT
 #Find out what Zork and Adventure were. Try to find a copy and play it.
 	#Seriously?
-#Change the prompt variable to something else entirely.
-#Add another argument and use it in your script.
+#[Completed]Change the prompt variable to something else entirely.
+#[Completed]Add another argument and use it in your script.
 #[Completed]Make sure you understand how I combined a <<SOMETHING style multi-line string with #{ } string interpolation as the last print.
