@@ -1,3 +1,4 @@
+#http://ruby.learncodethehardway.org/book/ex7.html
 puts "Mary had a little lamb."
 puts "Its fleece was white as %s." % 'snow'
 puts "And everywhere that Mary went."
